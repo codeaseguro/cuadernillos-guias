@@ -1,0 +1,51 @@
+name: Publicar PDFs en Pages
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch: # para republicar a mano el último release
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Descargar los PDFs del release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          mkdir sitio
+          # sin TAG (ejecución manual) baja el último release
+          gh release download $TAG --repo "$GITHUB_REPOSITORY" --pattern '*.pdf' --dir sitio
+          ls -lh sitio
+
+      - name: Redirigir la raíz a la web
+        run: |
+          cat > sitio/index.html <<'HTML'
+          <!doctype html>
+          <meta charset="utf-8">
+          <title>Cuadernillos · Codea Seguro</title>
+          <meta http-equiv="refresh" content="0; url=https://codeaseguro.dev">
+          <a href="https://codeaseguro.dev">codeaseguro.dev</a>
+          HTML
+
+      # Versiones fijadas. Para endurecer más, reemplazalas por el SHA del
+      # commit de cada action y dejá que Dependabot las actualice.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: sitio
+      - id: deployment
+        uses: actions/deploy-pages@v4

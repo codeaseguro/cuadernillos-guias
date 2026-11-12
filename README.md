@@ -17,7 +17,7 @@ De "funciona en mi máquina" a producción: Dockerfiles prolijos, imágenes chic
 - **Temas:** Docker · Dockerfile · Optimización · Cadena de suministro · Kubernetes · OWASP Kubernetes Top 10
 - **Edición:** v1.0 · 51 páginas · 3.4 MB
 
-**[⬇ Descargar PDF](https://github.com/codeaseguro/cuadernillos-guias/releases/latest/download/contenedores-seguros.pdf)**
+**[📖 Leer online](https://cuadernillos.codeaseguro.dev/contenedores-seguros.pdf)** · **[⬇ Descargar PDF](https://github.com/codeaseguro/cuadernillos-guias/releases/latest/download/contenedores-seguros.pdf)**
 
 <br clear="left">
 
@@ -34,7 +34,7 @@ Desde qué es un agente hasta cómo llevarlo a producción: herramientas, memori
 - **Temas:** Agentes de IA · LLM · Inyección de prompts · RAG · MCP · OWASP LLM Top 10 2025
 - **Edición:** v1.0 · 49 páginas · 3.3 MB
 
-**[⬇ Descargar PDF](https://github.com/codeaseguro/cuadernillos-guias/releases/latest/download/agentes-ia-seguros.pdf)**
+**[📖 Leer online](https://cuadernillos.codeaseguro.dev/agentes-ia-seguros.pdf)** · **[⬇ Descargar PDF](https://github.com/codeaseguro/cuadernillos-guias/releases/latest/download/agentes-ia-seguros.pdf)**
 
 <br clear="left">
 
