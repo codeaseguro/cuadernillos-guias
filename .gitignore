@@ -1,0 +1,3 @@
+# Los PDFs se publican como assets de los releases, no en el historial de git
+*.pdf
+.DS_Store

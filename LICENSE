@@ -1,0 +1,66 @@
+Cuadernillos de Codea Seguro
+Copyright (c) 2026 Codea Seguro — https://codeaseguro.dev
+
+Este repositorio usa dos licencias, según el tipo de contenido.
+
+==============================================================================
+1. CONTENIDO DE LOS CUADERNILLOS — CC BY-NC-SA 4.0
+==============================================================================
+
+El texto, las explicaciones, los diagramas, las actividades y el diseño de los
+cuadernillos están bajo la licencia Creative Commons
+Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0).
+
+Podés:
+  - Compartir: copiar y redistribuir el material en cualquier medio o formato.
+  - Adaptar: remezclar, transformar y construir a partir del material.
+
+Bajo estas condiciones:
+  - Atribución: tenés que dar crédito a Codea Seguro, enlazar la licencia
+    e indicar si hiciste cambios.
+  - NoComercial: no podés usar el material con fines comerciales.
+  - CompartirIgual: si adaptás el material, tenés que distribuirlo bajo
+    esta misma licencia.
+
+Resumen: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+Texto legal completo: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es
+
+==============================================================================
+2. FRAGMENTOS DE CÓDIGO — MIT
+==============================================================================
+
+Los fragmentos de código de los cuadernillos (Dockerfiles, archivos YAML,
+comandos, scripts y ejemplos en cualquier lenguaje) se publican bajo la
+licencia MIT, para que puedas usarlos libremente en tus proyectos, incluidos
+los comerciales.
+
+MIT License
+
+Copyright (c) 2026 Codea Seguro
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+==============================================================================
+3. MARCA
+==============================================================================
+
+El nombre "Codea Seguro", su logo y su identidad visual no están incluidos en
+ninguna de las licencias anteriores. Podés mencionarlos para dar crédito, pero
+no usarlos para presentar como oficial una versión modificada ni para
+promocionar productos o servicios propios.
