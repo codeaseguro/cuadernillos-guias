@@ -43,7 +43,7 @@ jobs:
 
       # Versiones fijadas. Para endurecer más, reemplazalas por el SHA del
       # commit de cada action y dejá que Dependabot las actualice.
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v3
         with:
           path: sitio
